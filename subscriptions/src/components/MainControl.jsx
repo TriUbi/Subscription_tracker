@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Balance from "./Balance";
 import FormAddSubs from "./FormAddSubs";
+import DisplayItems from "./DisplayItems";
 
 const MainControl = ({count}) => {
     const [type, setType] = useState("");
@@ -9,6 +10,7 @@ const MainControl = ({count}) => {
   
 
     return (
+        <>
         <div className="main-form">
             <Balance count={count}/>
             <FormAddSubs 
@@ -20,6 +22,9 @@ const MainControl = ({count}) => {
             subs={subs}
             />
         </div>
+        <DisplayItems subs={subs}/>
+
+        </>
     )
 }
 
