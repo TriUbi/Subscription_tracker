@@ -6,39 +6,44 @@ const FormAddMoney = ({ setCount, setIsValid }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
     if (input === "") {
-      setError("Please enter an amount");
+      setError("Please enter a budget amount");
       return;
     }
-    if (isNaN(input)) {
-      setError("Please enter a valid number");
+
+    const amount = Number(input);
+    if (isNaN(amount) || amount <= 0) {
+      setError("Please enter a valid amount greater than 0");
       return;
     }
-    if (input <= 0) {
-      setError("Please enter an amount greater than 0");
-      return;
-    }
+
     setError("");
-    setCount(Number(input));
+    setCount(amount);
     setIsValid(true);
   };
 
   return (
     <div className="form-add-money">
+      <h2>Set Your Budget</h2>
       <form onSubmit={handleSubmit}>
-        <h2>Add Budget</h2>
         <div className="field">
-          <label htmlFor="quantity">What's your monthly budget?</label>
+          <label htmlFor="budget">Enter your monthly budget</label>
           <input
             type="number"
-            id="quantity"
-            placeholder="Ex: 300"
+            id="budget"
             value={input}
             onChange={(e) => setInput(e.target.value)}
+            placeholder="Enter amount (e.g. 300)"
+            min="0"
+            step="0.01"
+            autoFocus
           />
         </div>
         {error && <p className="error">{error}</p>}
-        <button type="submit">Start Tracking</button>
+        <button type="submit" className="submit-btn">
+          Start Tracking
+        </button>
       </form>
     </div>
   );
