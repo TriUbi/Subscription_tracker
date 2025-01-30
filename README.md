@@ -1,28 +1,31 @@
 # 📊 Subscription Tracker
 
-A modern web application to help you track and manage your monthly subscription services. Keep control of your budget and monitor your streaming service expenses in one place.
+A modern web application built with React and Vite that helps you manage and track your monthly subscription services. Keep control of your budget and monitor your streaming expenses in one place.
 
-![Subscription Tracker](./public/preview.png)
+## 🌐 Live Demo
+
+Check out the live application: [Subscription Tracker](https://triubi.github.io/Subscription_tracker/)
 
 ## ✨ Features
 
 - 💰 Set and manage monthly budgets
-- 📝 Track multiple streaming service subscriptions
-- 📊 Real-time budget overview and spending analytics
-- 🎨 Modern and responsive user interface
-- 💾 Local storage persistence
-- 🌙 Clean and intuitive design
+- 📝 Track multiple streaming services
+- 📊 Real-time budget overview
+- 💵 Automatic spending calculations
+- 🎨 Modern and responsive design
+- 🔄 Easy budget updates
+- 🗑️ Remove subscriptions as needed
+- 📱 Mobile-friendly interface
 
 ## 🛠️ Built With
 
 - [React](https://reactjs.org/) - Frontend library
-- [Vite](https://vitejs.dev/) - Next Generation Frontend Tooling
-- [TypeScript](https://www.typescriptlang.org/) - For type safety
+- [Vite](https://vitejs.dev/) - Build tool
 - Modern CSS with:
-  - Flexbox
-  - CSS Grid
-  - Custom Properties
+  - Flexbox & Grid
+  - CSS Variables
   - Responsive Design
+  - Animations
 
 ## 🚀 Getting Started
 
@@ -36,52 +39,62 @@ A modern web application to help you track and manage your monthly subscription 
 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/subscription-tracker.git
+git clone https://github.com/TriUbi/Subscription_tracker.git
 ```
 
 2. Navigate to the project directory
 
 ```bash
-cd subscription-tracker
+cd Subscription_tracker/subscriptions
 ```
 
 3. Install dependencies
 
 ```bash
 npm install
-# or
-yarn install
 ```
 
 4. Start the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
 ```
 
 5. Open your browser and visit `http://localhost:5173`
 
-## 📱 Usage
+## 📱 How to Use
 
-1. Set your monthly budget
+1. Enter your monthly budget
 2. Add your streaming service subscriptions
 3. Monitor your spending and remaining budget
-4. Track all your subscriptions in one place
+4. Edit or remove subscriptions as needed
+5. Reset and start over when needed
 
-## 🤝 Contributing
+## 🎯 Key Features
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/yourusername/subscription-tracker/issues).
+- **Budget Management**: Set and update your monthly budget
+- **Service Tracking**: Add multiple streaming services
+- **Real-time Updates**: See your available budget instantly
+- **Visual Feedback**: Color-coded indicators for budget status
+- **Easy Editing**: Update or remove subscriptions anytime
+
+## 💻 Development
+
+To contribute to this project:
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
 ## 📝 License
 
-This project is [MIT](./LICENSE) licensed.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 👤 Author
 
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your Name](https://linkedin.com/in/yourprofile)
+- GitHub: [@TriUbi](https://github.com/TriUbi)
 
 ## 🌟 Show your support
 
