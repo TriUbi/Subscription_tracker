@@ -1,9 +1,10 @@
 const Header = () => {
-    return (
-        <div className='header'>
-            <h2>Subscriptions Tracker</h2>
-        </div>
-    )
-}
+  return (
+    <header className="header">
+      <h1>Subscription Tracker</h1>
+      <p>Keep track of your monthly subscriptions</p>
+    </header>
+  );
+};
 
 export default Header;
