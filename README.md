@@ -12,10 +12,7 @@ Check out the live application: [Subscription Tracker](https://triubi.github.io/
 - 📝 Track multiple streaming services
 - 📊 Real-time budget overview
 - 💵 Automatic spending calculations
-- 🎨 Modern and responsive design
-- 🔄 Easy budget updates
 - 🗑️ Remove subscriptions as needed
-- 📱 Mobile-friendly interface
 
 ## 🛠️ Built With
 
@@ -24,8 +21,6 @@ Check out the live application: [Subscription Tracker](https://triubi.github.io/
 - Modern CSS with:
   - Flexbox & Grid
   - CSS Variables
-  - Responsive Design
-  - Animations
 
 ## 🚀 Getting Started
 
@@ -70,23 +65,7 @@ npm run dev
 4. Edit or remove subscriptions as needed
 5. Reset and start over when needed
 
-## 🎯 Key Features
 
-- **Budget Management**: Set and update your monthly budget
-- **Service Tracking**: Add multiple streaming services
-- **Real-time Updates**: See your available budget instantly
-- **Visual Feedback**: Color-coded indicators for budget status
-- **Easy Editing**: Update or remove subscriptions anytime
-
-## 💻 Development
-
-To contribute to this project:
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 ## 📝 License
 
