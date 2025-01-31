@@ -1,25 +1,28 @@
-# Subscription Tracker
+# 💰 Subscription Tracker
 
-A simple app to manage your monthly subscriptions. Built with React and Vite.
+A simple app to manage your monthly subscriptions. Built with React and Vite. ✨
 
-## Live Demo
+![GitHub last commit](https://img.shields.io/github/last-commit/TriUbi/Subscription_tracker)
+![GitHub](https://img.shields.io/github/license/TriUbi/Subscription_tracker)
+
+## 🚀 Live Demo
 
 Check out the app here: [Subscription Tracker](https://triubi.github.io/Subscription_tracker/)
 
-## Features
+## ✨ Features
 
-- Add subscriptions with name and price
-- View total monthly expenses
-- Remove subscriptions
-- Simple and easy-to-use interface
+- 📝 Add subscriptions with name and price
+- 💵 View total monthly expenses
+- 🗑️ Remove subscriptions
+- 🎨 Simple and easy-to-use interface
 
-## Built With
+## 🛠️ Built With
 
-- React
-- Vite
-- GitHub Pages
+- ⚛️ React
+- ⚡ Vite
+- 🌐 GitHub Pages
 
-## Quick Start
+## 🏃‍♂️ Quick Start
 
 1. Clone the repository:
 
@@ -40,6 +43,6 @@ npm install
 npm run dev
 ```
 
-## Author
+## 👤 Author
 
-- GitHub: [@TriUbi](https://github.com/TriUbi)
+- GitHub: [@TriUbi](https://github.com/TriUbi) 🌟
