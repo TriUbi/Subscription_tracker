@@ -2,10 +2,6 @@
 
 A modern web application built with React and Vite that helps you manage and track your monthly subscription services. Keep control of your budget and monitor your streaming expenses in one place.
 
-## 🌐 Live Demo
-
-Check out the live application: [Subscription Tracker](https://triubi.github.io/Subscription_tracker/)
-
 ## ✨ Features
 
 - 💰 Set and manage monthly budgets
